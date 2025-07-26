@@ -1,9 +1,10 @@
 import React from 'react'
+import style from './NotFound.module.css'
 
-export default function Notfound() {
+export default function NotFound() {
+  
   return <>
-  <h1>Notfound</h1>
+    <h2>NotFound</h2>
   
   </>
 }
-  

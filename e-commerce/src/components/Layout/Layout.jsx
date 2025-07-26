@@ -1,12 +1,21 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Outlet from '../Outlet/Outlet'
-import Footer from '../Footer/Footer'
+import style from './Layout.module.css'
+import Navbar from '../Navbar/Navbar.jsx'
+import Footer from '../Footer/Footer.jsx'
+import { Outlet } from 'react-router-dom'
+
 export default function Layout() {
-  return <>
-  <Navbar/>
-  <Outlet/>
-  <Footer/>
-  
-  </>
+
+	return <>
+
+		<Navbar />
+
+		<div className="container mt-4 py-12 ">
+
+			<Outlet></Outlet>
+		</div>
+
+		<Footer />
+
+	</>
 }
