@@ -22,7 +22,7 @@ This application provides users with a seamless e-commerce experience, allowing 
   - Name: A-Z alphabetical sorting
 
 ### 📄 Product Details
-- **Dynamic Routing**: `/products/:id` for individual product pages
+- **Dynamic Routing**: `/products/:slug` for individual product pages using slugify for URL-friendly product titles
 - **Complete Information**: Name, description, image, price, category, rating
 - **Breadcrumb Navigation**: User-friendly navigation path
 - **Responsive Layout**: Optimized for all devices
